@@ -1,0 +1,112 @@
+/*
+COLOUR PALETTE
+#58496F - cyber grape
+#373F47 - charcoal
+#FFC4D1 - pink
+#F7DEED - pale purple pantone
+#FFF0EB - seashell
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  color: #373F47;
+  margin: 0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+img {
+  width: 300px;
+  /* margin-top: 10px; */
+}
+a {
+  color: #F7DEED
+}
+a:hover {
+  text-decoration: none
+}
+h1 {
+  font-size: 90px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1, h2 {
+  font-family: 'Kristi', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #58496F;
+  color: #FFF0EB;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #FFF0EB;
+}
+.projects a {
+color: #58496F;
+}
+.projects .btn {
+  color: #FFF0EB;
+  background: #58496F;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects .btn:hover {
+  background: rgba(88, 73, 111, 80%);
+}
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #58496F;
+  padding: 25px 0;
+}
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+.project-item h3 {
+  margin-top: 0;
+  margin-bottom: -11px;
+}
+/* Work experience
+------------------------------------*/
+.work-experience {
+  background: #FFC4D1;
+}
+
+/* Education
+------------------------------------*/
+
+
+/* Contact info
+------------------------------------*/
+footer {
+  background: #373F47;
+  color: #FFF0EB;
+}
